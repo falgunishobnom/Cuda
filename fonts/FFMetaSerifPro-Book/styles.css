@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FFMetaSerifPro-Book';
+  src: url('FFMetaSerifPro-Book.eot?#iefix') format('embedded-opentype'),  url('FFMetaSerifPro-Book.otf')  format('opentype'),
+	     url('FFMetaSerifPro-Book.woff') format('woff'), url('FFMetaSerifPro-Book.ttf')  format('truetype'), url('FFMetaSerifPro-Book.svg#FFMetaSerifPro-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

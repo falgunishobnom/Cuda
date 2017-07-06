@@ -1,0 +1,577 @@
+/*
+Designed By:
+Raghib Noor
+mail:caesar.rpmc@gmail.com
+*/
+
+
+/********************************************************************************************************************************************************All
+****************************************************************************************************/
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../vendor/my-icons/font/Flaticon.eot");
+    src: url("../vendor/my-icons/font/Flaticon.eot?#iefix") format("embedded-opentype"), url("../vendor/my-icons/font/Flaticon.woff") format("woff"), url("../vendor/my-icons/font/Flaticon.ttf") format("truetype"), url("../vendor/my-icons/font/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FFMetaSerifPro-Book';
+    src: url('../fonts/FFMetaSerifPro-Book/FFMetaSerifPro-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/FFMetaSerifPro-Book/FFMetaSerifPro-Book.otf') format('opentype'), url('../fonts/FFMetaSerifPro-Book/FFMetaSerifPro-Book.woff') format('woff'), url('../fonts/FFMetaSerifPro-Book/FFMetaSerifPro-Book.ttf') format('truetype'), url('../fonts/FFMetaSerifPro-Book/FFMetaSerifPro-Book.svg#FFMetaSerifPro-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FrutigerNextPro-Italic';
+    src: url('../fonts/FrutigerNextPro-Italic/FrutigerNextPro-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/FrutigerNextPro-Italic/FrutigerNextPro-Italic.otf') format('opentype'), url('../fonts/FrutigerNextPro-Italic/FrutigerNextPro-Italic.woff') format('woff'), url('../fonts/FrutigerNextPro-Italic/FrutigerNextPro-Italic.ttf') format('truetype'), url('../fonts/FrutigerNextPro-Italic/FrutigerNextPro-Italic.svg#FrutigerNextPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*font-family: 'Titillium Web', sans-serif;*/
+
+
+/*font-family: 'Lato', sans-serif;*/
+
+
+/********************************************************************************************************************************************************HEADER
+****************************************************************************************************/
+
+header.masthead {
+    background: #87509C;
+    min-height: 600px;
+    width: 100%;
+}
+
+header.masthead h1 {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 43px;
+    padding-bottom: 60px;
+}
+
+btn_caesar_1 {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 18px;
+    width: 292px;
+    height: 65px;
+    color: #fff;
+    background: #EB7D4B;
+}
+
+.btn_caesar_1 {
+    min-height: 67px;
+    width: 294px;
+    background: #EB7D4B;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.btn_caesar_1:hover {
+    color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 16px;
+    padding-left: 34px;
+}
+
+#mainNav {
+    background: #87509C;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 2px;
+    -webkit-transition: all .7s;
+    transition: all .7s;
+    border: 2px solid transparent;
+    margin: 0 auto;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover:after {
+    width: 100%;
+    border: 2px solid #512860;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #512860;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    -webkit-transition: all .7s;
+    transition: all .7s;
+}
+
+
+/********************************************************************************************************************************************************SERVICES
+****************************************************************************************************/
+
+.section_services_wrapper {
+    min-height: 744px;
+    width: 100%;
+    background: #17C2A4;
+}
+
+.section_services_wrapper h2 {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 40px;
+    padding-top: 110px;
+    color: #fff;
+}
+
+.section_services_wrapper h2:after {
+    display: block;
+    height: 2px;
+    background-color: #C8D9E5;
+    content: " ";
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section_services_wrapper h3 {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 24px;
+    padding-top: 60px;
+    color: #fff;
+}
+
+.section_services_wrapper p {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 18px;
+    color: #fff;
+}
+
+.service_item p {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 16px;
+    color: #fff;
+}
+
+.service_item {
+    margin-top: 85px;
+}
+
+
+/********************************************************************************************************************************************************TEAM
+****************************************************************************************************/
+
+.team_wrapper {
+    min-height: 744px;
+    width: 100%;
+    background: #E7F1F8;
+}
+
+.member img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 45px;
+}
+
+.team_wrapper h2 {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 40px;
+    padding-top: 110px;
+    color: #3C4761;
+}
+
+.team_wrapper h2:after {
+    display: block;
+    height: 2px;
+    background-color: #C8D9E5;
+    content: " ";
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.team_p {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 19px;
+    color: #3C4761;
+}
+
+.member p {
+    font-family: 'FFMetaSerifPro-Book';
+    font-size: 16px;
+    color: #3C4761;
+    text-align: center;
+    font-weight: 400;
+}
+
+.member_p_style {
+    color: #30bae7 !important;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-align: center !important;
+}
+
+.member h3 {
+    font-size: 24px;
+    color: #3C4761;
+    padding-top: 45px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+.social li {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #BDD1DF;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 162px;
+    margin-top: 32px;
+}
+
+.social li a {
+    color: #fff;
+}
+ .social_link_special{
+            margin-top: 22px;
+
+    }
+
+
+/********************************************************************************************************************************************************Skills
+****************************************************************************************************/
+
+.skill_wrapper {
+    min-height: 650px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.skill_wrapper h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    padding-top: 105px;
+    color: #3C4761;
+    font-weight: 700;
+}
+
+.skill_wrapper h2:after {
+    display: block;
+    height: 2px;
+    background-color: #C8D9E5;
+    content: " ";
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill_wrapper h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    color: #3C4761;
+    font-weight: 700;
+}
+
+.skill_wrapper p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #3C4761;
+    font-weight: 400;
+}
+
+
+/********************************************************************************************************************************************************About Us
+****************************************************************************************************/
+
+.about_us_wrapper {
+    width: 100%;
+    min-height: 895px;
+    background: #D74680;
+}
+
+.about_item_img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: -25%;
+}
+
+.about_section_2 {
+    margin-top: 114px;
+    margin-bottom: 140px;
+}
+
+.about_us_wrapper h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    padding-top: 123px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.about_us_wrapper h2:after {
+    display: block;
+    height: 2px;
+    background-color: #B73C6D;
+    content: " ";
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about_us_wrapper p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.about_us_wrapper h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.about_us_wrapper blockquote {
+    font-family: 'FrutigerNextPro-Italic';
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.3em;
+}
+
+.flaticon-left-quote-sketch:before {
+    content: "\201C";
+    font-size: 300%;
+    color: #fff;
+    position: relative;
+    top: 12px;
+}
+
+.flaticon-left-quote-sketch:after {
+    content: "\201D";
+    font-size: 300%;
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+
+.about_heading {
+    margin-bottom: 65px;
+}
+
+.about_style {
+    color: #FFDD99 !important;
+    font-size: 18px;
+}
+
+
+/********************************************************************************************************************************************************Contact
+****************************************************************************************************/
+
+.contact_wrapper {
+    width: 100%;
+    min-height: 930px;
+    background: #3C5499;
+}
+
+.contact_wrapper h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 161px;
+}
+
+.contact_wrapper h2:after {
+    display: block;
+    height: 2px;
+    background-color: #273A71;
+    content: " ";
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact_wrapper p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contact_wrapper .form_design {
+    background: #273A71;
+    margin-top: 74px;
+    margin-bottom: 21px;
+    padding: 16px 12px;
+}
+
+.btn_caesar_4 {
+    height: 72px;
+    width: 292px;
+    background: #30BAE7;
+    color: #fff;
+    margin-top: 62px;
+}
+
+.contact_wrapper .textarea_design {
+    background: #273A71;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+
+/* WebKit, Blink, Edge */
+
+.form-control:-moz-placeholder {
+    color: white;
+}
+
+
+/* Mozilla Firefox 4 to 18 */
+
+.form-control::-moz-placeholder {
+    color: white;
+}
+
+
+/* Mozilla Firefox 19+ */
+
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+
+
+/* Internet Explorer 10-11 */
+
+.form-control::-ms-input-placeholder {
+    color: white;
+}
+
+
+/* Microsoft Edge */
+
+
+/********************************************************************************************************************************************************Portfolios
+****************************************************************************************************/
+
+.portfolio_section_wrapper {
+    min-height: 1430px;
+    width: 100%;
+    background: #FFDD99
+}
+
+.portfolio_section_wrapper h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    padding-top: 105px;
+    color: #3C4761;
+    font-weight: 700;
+}
+
+.portfolio_section_wrapper h2:after {
+    display: block;
+    height: 2px;
+    background-color: #E5C37F;
+    content: " ";
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.portfolio_section_wrapper h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 65px;
+    color: #000;
+    font-weight: 400;
+}
+
+.portfolio_section_wrapper p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #615A4C;
+    font-weight: 400;
+}
+
+.btn_caesar_2 {
+    height: 33px;
+    width: 86px;
+    background: #EBC985;
+    color: #000;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 65px;
+    margin-left: 7px;
+    line-height: 18px;
+}
+
+.btn_active {
+    background: #fff;
+}
+
+.btn_caesar_3 {
+    height: 60px;
+    width: 290px;
+    background: #17C2A4;
+    color: #000;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 65px;
+    margin-bottom: 110px;
+    line-height: 48px;
+}
+
+
+/********************************************************************************************************************************************************Footer
+****************************************************************************************************/
+
+.footer_wrapper {
+    background: #344B8E;
+}
+
+.list-inline.footer_social_list>.list-inline-item:not(:last-child) {
+    margin-right: 65px;
+}
+
+.footer_wrapper.list-inline {
+    padding-left: 181px;
+}
+
+footer .footer-above {
+    background: #344B8E;
+    margin-left: 20%;
+}
+
+footer .footer-below {
+    background: #344B8E;
+}
+
+
+/***********************************************************************************************************************************************************END***************************************************************/
